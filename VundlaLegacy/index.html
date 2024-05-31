@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vundla Legacy</title>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
+
+    <script src="./js.js" defer></script>
+    
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!--Icon Scout CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <!--Google Fonts-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+</head>
+<body>
+    <!----------------Nav Bar--------------------->
+    <header class="row container">
+        <a href="#" class="logo"><img src="./imgs/main logo.png" alt="Vundla Legacy Logo"></a>
+        <div class="toggleMenu" onclick="toggleMenu();"></div>
+        <nav class="navigation row">
+            <ul class="row">
+                <li><i href="#">Home</i></li>
+                <li><i href="#about">About</i></li>
+                <li><i href="#project">Projects</i></li>
+                <li><i href="#service">Services</i></li>
+                <li><i href="#contact">Contact Us</i></li>
+            </ul>
+        </nav>
+    </header>
+    <!---------------- End of Nav Bar--------------------->
+
+    <!----------------Hero Section--------------------->
+    <section class="hero swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="container row">
+                        <h1>Building Things is our Mission</h1>
+                        <div class="row">
+                            <div>
+                                <h2>Feature Projects</h2>
+                                <p>The National University Of Architecture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container row">
+                        <h1>Building Things is our Mission</h1>
+                        <div class="row">
+                            <div>
+                                <h2>Feature Projects</h2>
+                                <p>The National University Of Architecture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="container row">
+                        <h1>Building Things is our Mission</h1>
+                        <div class="row">
+                            <div>
+                                <h2>Feature Projects</h2>
+                                <p>The National University Of Architecture</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-arrow row">
+                <div class="swiper-button-prev">
+                    Back
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="arrow-circle-left"><path fill="#6563FF" d="M8.29,11.29a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l3,3a1,1,0,0,0,1.42-1.42L11.41,13H15a1,1,0,0,0,0-2H11.41l1.3-1.29a1,1,0,0,0,0-1.42,1,1,0,0,0-1.42,0ZM2,12A10,10,0,1,0,12,2,10,10,0,0,0,2,12Zm18,0a8,8,0,1,1-8-8A8,8,0,0,1,20,12Z"></path></svg>
+                    
+                </div>
+                <div class="swiper-button-next">
+                    Next
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="arrow-circle-right"><path fill="#6563FF" d="M15.71,12.71a1,1,0,0,0,.21-.33,1,1,0,0,0,0-.76,1,1,0,0,0-.21-.33l-3-3a1,1,0,0,0-1.42,1.42L12.59,11H9a1,1,0,0,0,0,2h3.59l-1.3,1.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0ZM22,12A10,10,0,1,0,12,22,10,10,0,0,0,22,12ZM4,12a8,8,0,1,1,8,8A8,8,0,0,1,4,12Z"></path></svg>
+                </div>
+                
+            </div>
+    </section>
+    <!----------------End Of Hero Section--------------------->
+
+    <!----------------Reputation--------------------->
+    <section class="reputation container">
+        <h2>Our Reputation</h2>
+        <div class="reputation-cards column">
+            <div class="r-card">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="customer-service"><path d="M16,1A15,15,0,0,0,1,16v6a.5.5,0,0,0,.5.5H4v-5H2V16a14,14,0,0,1,28,0v1.54H28v5h2v4A3.5,3.5,0,0,1,26.5,30H19V28.5A1.5,1.5,0,0,0,17.5,27h-3A1.5,1.5,0,0,0,13,28.5v1A1.5,1.5,0,0,0,14.5,31h12A4.51,4.51,0,0,0,31,26.5V16A15,15,0,0,0,16,1Z"></path><path d="M7.5 13h-2a1.64 1.64 0 0 0-.5.09V25.91a1.64 1.64 0 0 0 .5.09h2A1.5 1.5 0 0 0 9 24.5v-10A1.5 1.5 0 0 0 7.5 13zM26.5 26a1.64 1.64 0 0 0 .5-.09V13.09a1.64 1.64 0 0 0-.5-.09h-2A1.5 1.5 0 0 0 23 14.5v10A1.5 1.5 0 0 0 24.5 26z"></path></svg>
+                <h3>Best Services</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, minima at.</p>
+            </div>
+            <div class="r-card">
+                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" viewBox="0 0 64 64" id="team"><path d="M32 29.6c2.6 0 5-4.2 5-7.6 0-3.3-2.2-5.9-5-5.9-2.8 0-5 2.6-5 5.9C27 25.4 29.4 29.6 32 29.6zM16.8 36.3c0-1.9.9-3.7 2.3-4.8l-4.4-1.1c0 0-3 2.8-3.5 2.8-.5 0-4-2.8-4-2.8l-5.1 1.4c-1.3.3-2.1 1.6-2.1 3v11.8c0 .7.5 1.3 1.1 1.3h15.7V36.3zM11.2 28.4c2 0 4.1-3.3 4.1-6.3 0-2.7-1.8-4.9-4.1-4.9-2.3 0-4.1 2.2-4.1 4.9C7.1 25.1 9.3 28.4 11.2 28.4zM52.8 29.1c2 0 4.1-3.3 4.1-6.3 0-2.7-1.8-4.9-4.1-4.9-2.3 0-4.1 2.2-4.1 4.9C48.6 25.8 50.8 29.1 52.8 29.1zM44.9 36.4c0-1.7-1.1-3.2-2.6-3.6l-6.5-1.6c0 0-3.4 3.8-3.8 3.9-.5 0-4.5-3.9-4.5-3.9l-5.9 1.6c-1.5.4-2.6 1.9-2.6 3.5v11.6h25.8V36.4zM61.8 32.5l-5.6-1.4c0 0-3 2.8-3.5 2.8-.5 0-4-2.8-4-2.8L45.3 32c1.1 1.1 1.8 2.6 1.8 4.3v11.5h16.7c.1-.2.1-.4.1-.6V35.5C64 34.1 63.1 32.8 61.8 32.5z"></path></svg>
+                <h3>Best Team</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, minima at.</p>
+            </div>
+            <div class="r-card">
+                <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="construction-plan"><path d="M459,28.2h-19.8c-5.7,0-10.4,4.7-10.4,10.4v74.6H83.2V38.6c0-5.7-4.7-10.4-10.4-10.4H52.9C23.7,28.2,0,51.9,0,81.1v349.7c0,25.4,22.6,53,54,53h403.9c31.4,0,54.1-27.2,54.1-53V81.1C512,51.9,488.2,28.2,459,28.2z M20.9,81.1c0-17.7,14.4-32.1,32-32.1h9.4v328.8h-9.4c-12,0-23.1,4.1-32,10.9C20.9,388.8,20.9,81.1,20.9,81.1z M490,430.9c0,17.8-14.5,32.1-32.1,32.1H54c-17.9,0-32.1-14.5-32.1-32.1V423c3.4-13.8,16-24.2,31-24.2h19.8c5.7,0,10.4-4.6,10.4-10.4V134.1h345.6v254.2c0,5.8,4.7,10.4,10.4,10.4H459c14.9,0,27.4,10.2,31,24V430.9L490,430.9z M491.1,388.8c-8.9-6.8-20.1-10.9-32.1-10.9h-9.4V49.1h9.4c17.7,0,32.1,14.4,32.1,32.1V388.8z"></path><path d="M371.7,188.4H140.3c-16.2,0-29.4,13.2-29.4,29.4v161.5c0,16.2,13.2,29.4,29.4,29.4h21.9c5.8,0,10.4-4.7,10.4-10.4c0-5.8-4.7-10.4-10.4-10.4h-21.9c-4.7,0-8.5-3.8-8.5-8.5V270.5h24c5.8,0,10.4-4.7,10.4-10.4c0-5.8-4.7-10.4-10.4-10.4h-24v-31.8c0-4.7,3.8-8.5,8.5-8.5h117.5v40.3h-55.4c-5.8,0-10.4,4.7-10.4,10.4s4.7,10.4,10.4,10.4h65.9c5.8,0,10.4-4.7,10.4-10.4v-50.8h93c4.7,0,8.5,3.8,8.5,8.5v78.5h-112c-5.8,0-10.4,4.7-10.4,10.4s4.7,10.4,10.4,10.4h112v62.1c0,4.7-3.8,8.5-8.5,8.5h-93v-19.6c0-5.8-4.7-10.4-10.4-10.4c-5.8,0-10.4,4.7-10.4,10.4v19.6h-24.9l-14.5-30.3c-2.5-5.2-8.7-7.4-13.9-4.9c-5.2,2.5-7.4,8.7-4.9,13.9l17.3,36.3c1.7,3.6,5.4,5.9,9.4,5.9h145.4c16.2,0,29.4-13.2,29.4-29.4V217.8C401.1,201.6,387.9,188.4,371.7,188.4z"></path></svg>
+                <h3>Best Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, minima at.</p>
+            </div>
+            
+        </div>
+    </section>
+    <!----------------End Of Reputation--------------------->
+
+    <!----------------About--------------------->
+    <section class="about column container" id="about">
+        <div class="about-img">
+            <img src="./imgs/about.jpg" alt="About Image">
+        </div>
+        <div class="about-content">
+            <h2>About Us</h2>
+            <p>Vundla legacy T/A KFL construction is a leading construction company operating in
+                South Africa with over 10 years of industry experience including its operations before
+                being registered. Since its registration in 2019 the company has maintained a firm
+                commitment to providing quality construction services, showcasing excellence and
+                innovation in every project. The company specializes in both commercial and
+                residential projects, ranging from office buildings and shopping centers to luxury
+                houses and apartments.</p>
+            <p>Vundla legacy was founded by Wellington Vundla, a man with a vision of creating a
+                construction company that values integrity, quality, and customer satisfaction above all
+                else. Over the years, the company has grown exponentially, now employing over 50
+                dedicated professionals and having completed many projects across the state.
+                </p>
+            <a href="#" class="page-btn">More On Our History</a>
+        </div>
+    </section>
+    <!----------------End Of About--------------------->
+
+    <!----------------Service--------------------->
+    <section class="service" id="service">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="service-cards column">
+                <a href="#" class="s-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="build"><path d="M31.00291 17c0-2.20557-1.79443-4-4-4h-2c-2.20557 0-4 1.79443-4 4v3c0 2.20557 1.79443 4 4 4h2c2.20557 0 4-1.79443 4-4v-3zm-2 3c0 1.10303-.89697 2-2 2h-2c-1.10303 0-2-.89697-2-2v-3c0-1.10303.89697-2 2-2h2c1.10303 0 2 .89697 2 2v3zM37.00291 24h2c2.20557 0 4-1.79443 4-4v-3c0-2.20557-1.79443-4-4-4h-2c-2.20557 0-4 1.79443-4 4v3c0 2.20557 1.79443 4 4 4zm-2-7c0-1.10303.89697-2 2-2h2c1.10303 0 2 .89697 2 2v3c0 1.10303-.89697 2-2 2h-2c-1.10303 0-2-.89697-2-2v-3zM19.00291 17c0-2.20557-1.79443-4-4-4h-2c-2.20557 0-4 1.79443-4 4v3c0 2.20557 1.79443 4 4 4h2c2.20557 0 4-1.79443 4-4v-3zm-2 3c0 1.10303-.89697 2-2 2h-2c-1.10303 0-2-.89697-2-2v-3c0-1.10303.89697-2 2-2h2c1.10303 0 2 .89697 2 2v3zM27.00291 26h-2c-2.20557 0-4 1.79443-4 4v3c0 2.20557 1.79443 4 4 4h2c2.20557 0 4-1.79443 4-4v-3c0-2.20557-1.79443-4-4-4zm2 7c0 1.10303-.89697 2-2 2h-2c-1.10303 0-2-.89697-2-2v-3c0-1.10303.89697-2 2-2h2c1.10303 0 2 .89697 2 2v3zM33.00291 33c0 2.20557 1.79443 4 4 4h2c2.20557 0 4-1.79443 4-4v-3c0-2.20557-1.79443-4-4-4h-2c-2.20557 0-4 1.79443-4 4v3zm2-3c0-1.10303.89697-2 2-2h2c1.10303 0 2 .89697 2 2v3c0 1.10303-.89697 2-2 2h-2c-1.10303 0-2-.89697-2-2v-3zM15.00291 26h-2c-2.20557 0-4 1.79443-4 4v3c0 2.20557 1.79443 4 4 4h2c2.20557 0 4-1.79443 4-4v-3c0-2.20557-1.79443-4-4-4zm2 7c0 1.10303-.89697 2-2 2h-2c-1.10303 0-2-.89697-2-2v-3c0-1.10303.89697-2 2-2h2c1.10303 0 2 .89697 2 2v3z"></path><path d="m5.00303,61c-.00012,0,53.99988,0,53.99988,0,4.05975-.10864,3.89087-6.12061-.18427-6,.23853-.53827.17987-1.41382.18427-2,0-1.6543-1.3457-3-3-3h-2.18427c.42169-1.45923.30823-3.51178-1.06128-4.42242l3.05853-1.70551c.91455-.51074,1.48877-1.43994,1.53564-2.48633.04688-1.0459-.44141-2.02295-1.30664-2.61279l-2.28387-1.55719,1.49213-2.18854c1.19867.34045,2.5545-.16895,3.24292-1.20593l2.81641-4.13086c.93604-1.31354.56274-3.2879-.78809-4.16895-1.3667-.93164-3.23633-.57715-4.16895.78857l-2.81689,4.13135c-.71674,1.01819-.68805,2.46906.06494,3.4549l-1.495,2.19275-2.28333-1.55682c-1.74664-1.27454-4.44141-.07642-4.66302,2.07574-.00006-.00006-1.13092,8.33978-1.13092,8.33978-.01056.07788-.01074.15497-.01526.23242-1.99493.64453-2.36121,3.02789-1.82874,4.81982h-2.18433c-1.6543,0-3,1.3457-3,3,.0058.58746-.0545,1.45905.18433,2h-4.74078c.34454-.59076.55646-1.26825.55646-2v-10c0-2.20557-1.79443-4-4-4h-6c-2.20557,0-4,1.79443-4,4v10c0,.73175.21191,1.40924.55646,2H7.00291v-2h6c2.20557,0,4-1.79443,4-4v-6c0-2.20557-1.79443-4-4-4h-6V15c0-2.20557,1.79443-4,4-4h30c2.20557,0,4,1.79443,4,4v17.5c.01434,1.30377,1.98016,1.32147,2-.00006,0,.00006,0-17.49994,0-17.49994,0-3.30859-2.69141-6-6-6h-2v-2c0-2.20557-1.79443-4-4-4h-18c-2.20557,0-4,1.79443-4,4v2h-2c-3.30859,0-6,2.69141-6,6v40c-3.93921.09747-3.96936,5.8938.00012,6Zm50.18787-29.43164l2.81689-4.13135c.7406-1.07556,2.38428.04108,1.65234,1.12653,0-.00006-2.81641,4.1308-2.81641,4.1308-.73877,1.07794-2.38629-.04266-1.65283-1.12598ZM15.00291,7c0-1.10303.89697-2,2-2h18c1.10303,0,2,.89697,2,2v2H15.00291v-2ZM7.00291,41h3v7c0,.55225.44775,1,1,1s1-.44775,1-1v-7h1c1.10303,0,2,.89697,2,2v6c0,1.10303-.89697,2-2,2h-6v-10Zm49,11c.55127,0,1,.44873,1,1v1c0,.55127-.44873,1-1,1h-6c-.55127,0-1-.44873-1-1v-1c0-.55127.44873-1,1-1h6Zm-9.99017-6.78375c-.00006.00006,1.1308-8.33978,1.1308-8.33978.17114-.84161.94983-1.06824,1.55469-.69189l6.21973,4.24072c.41553.28369.44336.70361.43555.87109-.00732.16748-.07227.5835-.51172.82861l-7.35059,4.09912c-.6839.41559-1.61603-.21869-1.47845-1.00787Zm-2.00983,2.78375c0-.39691.237-.73407.573-.89545.85077,1.22418,2.59906,1.61554,3.88892.86658,0,.00006,1.74164-.97113,1.74164-.97113h.79645c.55127,0,1,.44873,1,1v1c0,.55127-.44873,1-1,1h-6c-.55127,0-1-.44873-1-1v-1Zm-5,5c0-.55127.44873-1,1-1h6c.55127,0,1,.44873,1,1v1c0,.55127-.44873,1-1,1h-6c-.55127,0-1-.44873-1-1v-1Zm-18-10c0-1.10303.89697-2,2-2h6c1.10303,0,2,.89697,2,2v10c0,1.10303-.89697,2-2,2h-6c-1.10303,0-2-.89697-2-2v-10Zm-15.99994,14c-.00006,0,53.99994,0,53.99994,0,1.29321.0177,1.33093,1.97479,0,2H5.00291c-1.29321-.0177-1.33087-1.97479.00006-2Z"></path><path d="m41.00291,46.02002c.55225,0,1-.44775,1-1v-4.02002h.68018c1.31085-.01935,1.31659-1.97882,0-2h-3.68018c-2.20557,0-4,1.79443-4,4v6c-.05011.89471.37256,2.13397,1.4566,1.78461.52191-.18011.79877-.74945.61859-1.27142-.14691.13342-.04883-6.38611-.0752-6.51318,0-1.10303.89697-2,2-2h1v4.02002c0,.55225.44775,1,1,1Z"></path></svg>
+                    </div>
+                    <h4>Construction</h4> 
+                </a>
+                <a href="#" class="s-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" id="home-renovation"><path d="M504.5 432a7.5 7.5 0 0 0 6.71-10.85l-14.47-28.95a27.37 27.37 0 0 0-24.6-15.2h-45.28a27.37 27.37 0 0 0-24.6 15.2l-12.4 24.8H122.14l-12.4-24.8a27.35 27.35 0 0 0-24.6-15.2H39.86a27.37 27.37 0 0 0-24.6 15.2L.79 421.15A7.5 7.5 0 0 0 7.5 432h60.64l6.25 12.5-6.25 12.5H7.5a7.5 7.5 0 0 0-6.71 10.85l14.47 28.95a27.37 27.37 0 0 0 24.6 15.2h45.28a27.35 27.35 0 0 0 24.6-15.2l12.4-24.8h267.72l12.4 24.8a27.35 27.35 0 0 0 24.6 15.2h45.28a27.35 27.35 0 0 0 24.6-15.2l14.47-28.95A7.5 7.5 0 0 0 504.5 457h-60.64l-6.25-12.5 6.25-12.5zm-386-166a7.5 7.5 0 0 0 7.5 7.5h260a7.5 7.5 0 0 0 7.5-7.5v-22.5h-275zm-81 29H60V0H37.5A37.54 37.54 0 0 0 0 37.5v295A37.54 37.54 0 0 1 37.5 295z"></path><path d="M504.5 40H351.74l46.05 28.34A22.62 22.62 0 0 1 408.5 87.5v40a22.49 22.49 0 0 1-20 22.36v63.78a22.54 22.54 0 0 1 20 22.36v30a22.52 22.52 0 0 1-22.5 22.5H126a22.52 22.52 0 0 1-22.5-22.5v-30a22.54 22.54 0 0 1 20-22.36v-63.78a22.51 22.51 0 0 1-20-22.36v-40a22.62 22.62 0 0 1 10.71-19.16L160.26 40H75v262.5a7.5 7.5 0 0 1-7.5 7.5h-30a22.5 22.5 0 0 0 0 45h467a7.5 7.5 0 0 0 7.5-7.5v-300a7.5 7.5 0 0 0-7.5-7.5Z"></path><path d="M223.5 169.25h25v25h-25zM263.5 129.25h25v25h-25zM223.5 129.25h25v25h-25zM263.5 169.25h25v25h-25z"></path><path d="M138.5 128.61v99.89h235v-99.89L256 56.31Zm165-6.86v80a7.5 7.5 0 0 1-7.5 7.5h-80a7.5 7.5 0 0 1-7.5-7.5v-80a7.5 7.5 0 0 1 7.5-7.5h80a7.5 7.5 0 0 1 7.5 7.5Z"></path><path d="M118.5 87.5v35.81l133.57-82.2a7.51 7.51 0 0 1 7.86 0l133.57 82.2V87.5a7.51 7.51 0 0 0-3.57-6.39l-130-80a7.51 7.51 0 0 0-7.86 0l-130 80a7.51 7.51 0 0 0-3.57 6.39Z"></path></svg>
+                    </div>
+                    <h4>Renovations</h4> 
+                </a>
+                <a href="#" class="s-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 512 512" viewBox="0 0 512 512" id="concrete"><path d="M423.832,79.599h-52.3c-3.25,0-6.501,2.068-7.682,5.319l-12.41,29.548h-41.072V88.168c0-4.728-3.841-8.273-8.273-8.273
+                            c-4.432,0-8.273,3.841-8.273,8.273v26.298h-54.664V88.168c0-4.728-3.841-8.273-8.273-8.273c-4.432,0-8.273,3.841-8.273,8.273v26.298
+                            h-55.254V88.168c0-4.728-3.841-8.273-8.273-8.273c-4.432,0-8.273,3.841-8.273,8.273v26.298H96.146V88.168
+                            c0-4.728-3.841-8.273-8.273-8.273c-4.728,0-8.273,3.841-8.273,8.273v232.246v103.713c0,4.728,3.841,8.273,8.273,8.273h336.255
+                            c4.728,0,8.273-3.841,8.273-8.273V87.873C432.105,83.44,428.56,79.599,423.832,79.599z M150.81,191.881v44.026H96.146v-44.026
+                            H150.81z M96.146,253.045h54.664v48.458H96.146V253.045z M167.356,191.881h54.664v44.026h-54.664V191.881z M293.526,175.334h-54.664
+                            v-44.026h54.664V175.334z M222.02,175.334h-54.664v-44.026h54.664V175.334z M150.81,175.334H96.146v-44.026h54.664V175.334z
+                             M167.356,290.866v-37.821h54.664v14.183l-31.025,1.477c-2.659,0-5.023,1.477-6.501,3.546L167.356,290.866z M238.862,253.045h25.707
+                            l-5.023,12.41l-20.683,0.886V253.045z M271.365,236.203h-32.503v-44.026h50.527L271.365,236.203z M310.368,131.013h34.276
+                            l-6.501,15.956l-27.48,16.251v-32.207H310.368z M415.263,415.854H96.146v-96.031l52.004,0.296l10.637-0.296l37.23-34.276
+                            l69.733-3.546c3.25-0.296,6.205-2.068,7.387-5.319l11.819-28.957l0,0l24.82-60.869c0,0,0,0,0-0.296l2.068-4.728l37.23-21.865
+                            c1.477-0.886,2.659-2.364,3.546-4.137l12.41-30.139l0,0l12.41-29.548h38.117L415.263,415.854L415.263,415.854z M337.552,195.131
+                            c0,15.66,13.001,28.661,28.661,28.661c15.66,0,28.661-13.001,28.661-28.661s-12.706-28.661-28.661-28.661
+                            C350.258,166.47,337.552,179.471,337.552,195.131z M378.033,195.131c0,6.501-5.319,11.819-11.819,11.819
+                            c-6.501,0-11.819-5.319-11.819-11.819s5.319-11.819,11.819-11.819C372.714,183.312,378.033,188.631,378.033,195.131z
+                             M349.962,269.888c5.548,0,10.046,4.498,10.046,10.046c0,5.548-4.498,10.046-10.046,10.046c-5.548,0-10.046-4.498-10.046-10.046
+                            C339.916,274.385,344.414,269.888,349.962,269.888z M182.426,354.985c-5.614,0-10.046,4.432-10.046,10.046
+                            s4.432,10.046,10.046,10.046c5.614,0,10.046-4.432,10.046-10.046C192.177,359.418,187.744,354.985,182.426,354.985z
+                             M251.568,364.736c5.548,0,10.046,4.498,10.046,10.046c0,5.548-4.498,10.046-10.046,10.046s-10.046-4.498-10.046-10.046
+                            C241.522,369.234,246.019,364.736,251.568,364.736z M386.306,381.874c5.548,0,10.046,4.498,10.046,10.046
+                            c0,5.548-4.498,10.046-10.046,10.046c-5.548,0-10.046-4.498-10.046-10.046C376.26,386.372,380.758,381.874,386.306,381.874z
+                             M319.232,301.504c-4.432,0-7.978,3.546-7.978,7.978c0,4.432,3.546,7.978,7.978,7.978c4.432,0,7.978-3.546,7.978-7.978
+                            C327.506,305.049,323.665,301.504,319.232,301.504z"></path></svg>
+                    </div>
+                    <h4>Foamwork</h4> 
+                </a>
+                <a href="#" class="s-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="roof"><path d="m81.767,31.164v2c0,.552-.448,1-1,1h-11c-.552,0-1-.448-1-1v-2c0-1.103.897-2,2-2h9c1.103,0,2,.897,2,2Zm-11.352,4l10.352,13.672v-13.672h-10.352Zm20.585,31.836h-4.611c-.313,0-.609-.147-.798-.397l-21.09-27.943-21.09,27.943c-.189.25-.485.397-.798.397H5c-.379,0-.727-.215-.896-.555s-.131-.746.098-1.049L30.703,30.396c.189-.25.484-.396.797-.396,0,0,33,0,33,0,.335-.007.589.18.797.396l26.5,35c.505.623.002,1.629-.797,1.604Zm-2.011-2l-24.489-32.343-24.489,32.343h2.102l21.588-28.603c.378-.501,1.219-.501,1.597,0l21.588,28.603h2.102Zm-18.689-7c-.286,9.27-11.312,9.271-11.6,0,0-3.86,2.602-7,5.8-7s5.8,3.14,5.8,7Zm-4.8-4.802v3.802h2.723c-.286-1.847-1.354-3.307-2.723-3.802Zm-4.723,3.802h2.723v-3.802c-1.369.495-2.437,1.955-2.723,3.802Zm2.723,5.802v-3.802h-2.723c.286,1.847,1.354,3.307,2.723,3.802Zm4.723-3.802h-2.723v3.802c1.369-.495,2.437-1.955,2.723-3.802Z"></path></svg>
+                    </div>
+                    <h4>Roofing</h4> 
+                </a>
+                <a href="#" class="s-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" id="puzzle"><g><path d="M33.83 18a3.33 3.33 0 0 1-3.33 3.33H28V28H21.33V25.5a3.33 3.33 0 1 0-6.67 0V28H8V8H28v6.67h2.5A3.33 3.33 0 0 1 33.83 18zM57 7V27H50.33v2.5a3.33 3.33 0 0 1-6.67 0V27H37V20.33h2.5a3.33 3.33 0 1 0 0-6.67H37V7zM21.17 47a3.33 3.33 0 0 0 3.33 3.33H27V57H7V37h6.67V34.5a3.33 3.33 0 0 1 6.67 0V37H27v6.67H24.5A3.33 3.33 0 0 0 21.17 47zM56 36V56H36V49.33H33.5a3.33 3.33 0 0 1 0-6.67H36V36h6.67v2.5a3.33 3.33 0 0 0 6.67 0V36z"></path></g></svg>
+                    </div>
+                    <h4>Tiling</h4> 
+                </a>
+                <a href="#" class="s-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" id="plug"><path d="M95.7 46.3c-.2-.2-.4-.3-.7-.3H80.2c-1.5-3.5-5.1-6-9.2-6h-2v-1c0-.6-.4-1-1-1h-3c-.6 0-1 .4-1 1v2h-9c-.6 0-1 .4-1 1v4c0 .6.4 1 1 1h9v6h-9c-.6 0-1 .4-1 1v4c0 .6.4 1 1 1h9v2c0 .6.4 1 1 1h3c.6 0 1-.4 1-1v-1h2c4.1 0 7.6-2.5 9.2-6H95c.6 0 1-.4 1-1v-6c0-.3-.1-.5-.3-.7zM28 33c-9.4 0-17 7.6-17 17s7.6 17 17 17 17-7.6 17-17-7.6-17-17-17zm-4 22c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V45c0-.6.4-1 1-1h6c.6 0 1 .4 1 1v10zm16 0c0 .6-.4 1-1 1h-6c-.6 0-1-.4-1-1V45c0-.6.4-1 1-1h6c.6 0 1 .4 1 1v10z"></path><path d="M51 26H5c-.6 0-1 .4-1 1v46c0 .6.4 1 1 1h46c.6 0 1-.4 1-1V27c0-.6-.4-1-1-1zM28 69C17.5 69 9 60.5 9 50s8.5-19 19-19 19 8.5 19 19-8.5 19-19 19z"></path></svg>
+                    </div>
+                    <h4>Electric wiring</h4> 
+                </a>
+                <a href="#" class="s-card">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 32 32" viewBox="0 0 32 32" id="paint-roll"><path d="M28.15997,3.76001h-2.23999V2c0-0.83002-0.67999-1.5-1.5-1.5H3.84003c-0.83002,0-1.5,0.66998-1.5,1.5v6.51996c0,0.83002,0.66998,1.5,1.5,1.5h20.57996c0.82001,0,1.5-0.66998,1.5-1.5V6.76001h0.73999v4.38995l-13.00995,4.32001C13.03998,15.67999,12.63,16.25,12.63,16.89996v2.61005h-1.21002c-0.82996,0-1.5,0.66998-1.5,1.5v6.27997c0,2.32001,1.88,4.21002,4.21002,4.21002c2.32001,0,4.21002-1.89001,4.21002-4.21002v-6.27997c0-0.83002-0.67004-1.5-1.5-1.5H15.63v-1.53003l13.01001-4.32001c0.60999-0.20996,1.01996-0.77997,1.01996-1.42999V5.26001C29.65997,4.44,28.98999,3.76001,28.15997,3.76001z M15.34003,27.28998c0,0.66998-0.55005,1.21002-1.21002,1.21002c-0.66998,0-1.21002-0.54004-1.21002-1.21002v-4.77997h2.42004V27.28998z"></path></svg>
+                    </div>
+                    <h4>Painting</h4> 
+                </a>
+            </div>
+        </div>
+    </section>
+    <!----------------End Of Service--------------------->
+
+    <!----------------Experience--------------------->
+    <section class="experience row flex container">
+        <div class="experience-cards row">
+            <div class="e-card">
+                <h2>84+</h2>
+                <p>Happy Clients</p>
+            </div>
+            <div class="e-card">
+                <h2>234+</h2>
+                <p>Projects Completed</p>
+            </div>
+            <div class="e-card">
+                <h2>5+</h2>
+                <p>Years In Business</p>
+            </div>
+        </div>
+        <div class="experience-content">
+            <h1>8 years experience</h1>
+            <p>Our Company has been the leading provided construction services to clients throughout South Africa since 2016</p>
+            <a href="#" class="page-btn-2">
+                Contact Us
+            </a>
+        </div>
+    </section>
+    <!----------------End Of Experience--------------------->
+
+    <!----------------Subscribe--------------------->
+    <section class="subscribe">
+        <div class="subscribe-content row container">
+            <div>
+                <h2>Free Consultation with Exceptional quality</h2>
+                <p>Just One Call Away: <a href="tel:+27738480023">+27 73 848 0023</a></p>
+            </div>
+            <a href="#" class="page-btn active">
+                Get Your Consultation
+            </a>
+        </div>
+    </section>
+    <!----------------End Of Subscribe--------------------->
+
+    <!----------------Projects--------------------->
+    <section class="project container" id="project">
+        <h2>Project</h2>
+        <div class="project-filter-slider row">
+            <div class="filter row">
+                <div class="filter-btn btn-active" data-cat="all">All</div>
+                <div class="filter-btn " data-cat="commercial">Commercial</div>
+                <div class="filter-btn " data-cat="residential">Residential</div>
+                <div class="filter-btn" data-cat="other">Other</div>
+            </div>
+            <div class="project-slider swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide column" data-type="residential">
+                        <a href="#" class="p-card">
+                            <div class="slide-img row">
+                                <img src="./imgs/img1.jpg" alt="">
+                            </div>
+                            <div class="slide-content">
+                                <h3>Wild Stone Infra Hotel</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </a>
+                        <a href="#" class="p-card">
+                            <div class="slide-img row">
+                                <img src="./imgs/img2.jpg" alt="">
+                            </div>
+                            <div class="slide-content">
+                                <h3>Wild Stone Infra Hotel</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide column" data-type="commercial">
+                        <a href="#" class="p-card">
+                            <div class="slide-img row">
+                                <img src="./imgs/img3.jpg" alt="">
+                            </div>
+                            <div class="slide-content">
+                                <h3>Wild Stone Infra Hotel</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </a>
+                        <a href="#" class="p-card">
+                            <div class="slide-img row">
+                                <img src="./imgs/img4.jpg" alt="">
+                            </div>
+                            <div class="slide-content">
+                                <h3>Wild Stone Infra Hotel</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="swiper-slide column" data-type="commercial">
+                        <a href="#" class="p-card">
+                            <div class="slide-img row">
+                                <img src="./imgs/img1.jpg" alt="">
+                            </div>
+                            <div class="slide-content">
+                                <h3>Wild Stone Infra Hotel</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </a>
+                        <a href="#" class="p-card">
+                            <div class="slide-img row">
+                                <img src="./imgs/img2.jpg" alt="">
+                            </div>
+                            <div class="slide-content">
+                                <h3>Wild Stone Infra Hotel</h3>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="no-results d-none">
+                        <h2>No results found</h2>
+                        <p>Try to change the filters</p>
+                    </div>
+                </div>
+                <div class="project-arrow row">
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="arrow-circle-left"><path fill="#6563FF" d="M8.29,11.29a1,1,0,0,0-.21.33,1,1,0,0,0,0,.76,1,1,0,0,0,.21.33l3,3a1,1,0,0,0,1.42-1.42L11.41,13H15a1,1,0,0,0,0-2H11.41l1.3-1.29a1,1,0,0,0,0-1.42,1,1,0,0,0-1.42,0ZM2,12A10,10,0,1,0,12,2,10,10,0,0,0,2,12Zm18,0a8,8,0,1,1-8-8A8,8,0,0,1,20,12Z"></path></svg>
+                        Back
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next">
+                        Next
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="arrow-circle-right"><path fill="#6563FF" d="M15.71,12.71a1,1,0,0,0,.21-.33,1,1,0,0,0,0-.76,1,1,0,0,0-.21-.33l-3-3a1,1,0,0,0-1.42,1.42L12.59,11H9a1,1,0,0,0,0,2h3.59l-1.3,1.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0ZM22,12A10,10,0,1,0,12,22,10,10,0,0,0,22,12ZM4,12a8,8,0,1,1,8,8A8,8,0,0,1,4,12Z"></path></svg>
+                    </div>
+                </div>
+                
+                
+                
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------End Of Projects--------------------->
+
+    <!----------------Form--------------------->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h3>What can we do for you?</h3>
+                <p>We are ready to work on project of any complexity, whether it's commercial or residential.</p>
+                <form action="">
+                    <div class="form row">
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Email">
+                        <select name="" id="">
+                            <option value="0">Reason For Contacting Us</option>
+                            <option value="1">Construction</option>
+                            <option value="2">Renovations</option>
+                            <option value="3">Foamwork</option>
+                            <option value="4">Roofing</option>
+                            <option value="5">Tiling</option>
+                            <option value="6">Painting</option>
+                            <option value="7">Electric wiring</option>
+                            <option value="8">Consultation</option>
+                        </select>
+                        <input type="tel" name="" id="" placeholder="Phone">
+                    </div>
+                    <div>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Write in details..."></textarea>
+                        <p>* Indicates a required field.</p>
+                    </div>
+                    <button type="submit" class="page-btn-2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!----------------End Of Form--------------------->
+
+    <!----------------Footer--------------------->
+    <footer>
+        <div class="footer row flex container">
+            <div class="footer-details row">
+                <ul>
+                    <li class="row">
+                        <h5>Address</h5>
+                        <p>Kempton Park, Johannesburg, Gauteng, South Africa</p>
+                    </li>
+                    <li class="row">
+                        <h5>Phone:</h5>
+                        <p>+27 738 480 023</p>
+                    </li>
+                    <li class="row">
+                        <h5>Email:</h5>
+                        <p>sales@vundlalegacy.com</p>
+                    </li>
+                </ul>
+                <a href="#" class="logo"><img src="./imgs/main logo.png" alt=""></a>
+            </div>
+            <div class="footer-content">
+                <h5>Newsletter:</h5>
+                <form action="" class="row">
+                    <input type="email" placeholder="Your Email">
+                    <button type="submit" class="page-btn-2">Subscribe</button>
+                </form>
+                <h5>Social</h5>
+                <div class="media-links row">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100" id="facebook"><path d="M95 20.001C95 12.119 87.884 5 80 5H20C12.116 5 5 12.119 5 20.001v59.998C5 87.881 12.116 95 20.001 95H50V61H39V46h11v-5.844C50 30.077 57.568 21 66.875 21H79v15H66.875C65.548 36 64 37.611 64 40.024V46h15v15H64v34h16c7.884 0 15-7.119 15-15.001V20.001z"></path></svg> 
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" version="1" id="linkedin"><path d="M196.064.25C88.347.25.187 88.408.187 196.127v607.841c0 107.717 88.158 195.845 195.877 195.845h607.841c107.718 0 195.845-88.127 195.845-195.845V196.127C999.75 88.41 911.623.25 803.905.25H196.064zm49.266 164.948c51.648 0 83.461 33.906 84.443 78.475 0 43.585-32.797 78.444-85.442 78.444h-.969c-50.665 0-83.412-34.857-83.412-78.444 0-44.568 33.738-78.475 85.379-78.475zm445.08 208.31c99.329 0 173.79 64.922 173.79 204.436v260.449H713.247V595.406c0-61.06-21.847-102.718-76.476-102.718-41.704 0-66.562 28.078-77.476 55.202-3.987 9.704-4.967 23.257-4.967 36.832v253.671H403.375s1.981-411.613 0-454.233h150.984v64.324c20.06-30.95 55.942-74.977 136.051-74.977zm-521.556 10.685h150.953v454.202H168.854V384.193z"></path></svg>
+                    </a>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" fill="none" viewBox="0 0 512 512" id="twitter"><g clip-path="url(#clip0_84_15697)"><rect width="512" height="512" fill="#000" rx="60"></rect><path fill="#fff" d="M355.904 100H408.832L293.2 232.16L429.232 412H322.72L239.296 302.928L143.84 412H90.8805L214.56 270.64L84.0645 100H193.28L268.688 199.696L355.904 100ZM337.328 380.32H366.656L177.344 130.016H145.872L337.328 380.32Z"></path></g><defs><clipPath id="clip0_84_15697"><rect width="512" height="512" fill="#fff"></rect></clipPath></defs></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <div class="container">
+                <p>Vundla Legacy &copy; 2024. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!----------------End Of Footer--------------------->
+</body>
+</html>
