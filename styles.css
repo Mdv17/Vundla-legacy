@@ -12,7 +12,7 @@ html {
 
 body {
     --cl--1--:#fff;
-    --cl--2--:#14171f;
+    --cl--2--:#CE4611;
     --cl--3--:#2947a9;
     --cl--4--:#91a1d4;
     --cl--5--:#f6f8f7;
@@ -103,7 +103,7 @@ header {
 }
 
 .logo img {
-    max-height: 40px;
+    max-height: 50px;
     max-width: max-content;
 }
 
@@ -115,12 +115,13 @@ nav ul {
 nav a {
     font-weight: 500;
     font-size: 18px;
-    color: var(--cl--2--);
+    color: rgb(206, 70, 17);
     text-transform: capitalize;
 }
 
 nav a:hover {
     color: var(--cl--3--);
+    cursor: pointer;
 }
 
 /*------------------ End Of Nav Bar ---------------*/
@@ -131,7 +132,7 @@ nav a:hover {
 }
 
 .hero .swiper-slide {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(./imgs/img4.jpg);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.9) 16.58%, rgba(255, 255, 255, 0) 72.38%), url(./imgs/construction-silhouette.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -518,7 +519,7 @@ nav a:hover {
 
 /*------------------ Subscribe ---------------*/
 .subscribe {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/img2.jpg);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(imgs/medium-shot-people-working-construction.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
